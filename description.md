@@ -36,3 +36,13 @@
 - extenstions
   - dart
   - flutter
+
+### HELLO FLUTTER
+
+- runApp 함수는 void 함수이기 때문에 아무것도 return하지 않는다. 하나의 argument를 필요로 하는데, 바로 Widget이란 타입이다.
+- Widget은 레고 블럭이라고 생각해볼수 있다. flutter에 있는 모든건 Widge이기 때문에 레고블럭을 조립한다고 생각하면 된다.
+- flutter의 관점에서 Widget은 앱의 UI를 만드는 레고 블럭 같은것이다.
+- 프로그래밍 언어의 관점에서 본다면 Widget을 만든다는건 그냥 class를 만드는것이다.
+- 모든 Widget은 build 메소드를 구현해야한다.
+- build 메소드는 flutter가 실행하게 되는데 build 메소드가 무엇을 return 하던지 그것을 화면에서 보여준다.
+- 즉 build 메소드는 Widget의 UI를 만드는것이다.

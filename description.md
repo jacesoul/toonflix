@@ -46,3 +46,6 @@
 - 모든 Widget은 build 메소드를 구현해야한다.
 - build 메소드는 flutter가 실행하게 되는데 build 메소드가 무엇을 return 하던지 그것을 화면에서 보여준다.
 - 즉 build 메소드는 Widget의 UI를 만드는것이다.
+- StatelessWidget은 기초적인 Widget이고 화면에 뭔가를 띄워주는 역할을 한다.
+- Widget이 된다는건 계약을 맺는것이다. 그 계약은 바로 build 메소드를 구현해야한다는 뜻이다.
+- Scaffold는 화면의 구성 및 구조에 관한 것들을 가지고 있는 아주 멋진 Widget이다.

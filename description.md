@@ -54,3 +54,17 @@
 
 - Row는 수평, Column은 수직배열을 뜻한다.
 - Container는 div와 동일하다 child를 가지고 있는 단순한 box이다.
+- Dart는 constant(상수) 개념을 지원한다. constant는 절대 바뀌지 않는 변수이다. 또한 value를 사전에 알수있는 변수이다. 코드를 compile하기 전에 value를 알고 있다.
+- 자동으로 const를 설정할수있는 vs code 설정
+
+```
+  "editor.codeActionsOnSave": {
+  "source.fixAll": true
+  }
+```
+
+- 부모가 무엇인지 알려주는 멋진 줄이 생기는 vs code 설정
+
+```
+  "dart.previewFlutterUiGuides": true,
+```

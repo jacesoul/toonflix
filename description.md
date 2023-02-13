@@ -49,3 +49,7 @@
 - StatelessWidget은 기초적인 Widget이고 화면에 뭔가를 띄워주는 역할을 한다.
 - Widget이 된다는건 계약을 맺는것이다. 그 계약은 바로 build 메소드를 구현해야한다는 뜻이다.
 - Scaffold는 화면의 구성 및 구조에 관한 것들을 가지고 있는 아주 멋진 Widget이다.
+
+### UI Challenge
+
+- Row는 수평, Column은 수직배열을 뜻한다.

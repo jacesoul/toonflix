@@ -68,3 +68,9 @@
 ```
   "dart.previewFlutterUiGuides": true,
 ```
+
+- Code Actions는 코드를 매우 간단한 방법으로 리팩토링 하게 해준다.
+
+```
+command + .
+```

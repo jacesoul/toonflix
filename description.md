@@ -77,3 +77,7 @@ command + .
 
 - Extension Install : **Error Lens**
 - 실제로 에러가 무엇인지 알려준다.
+- Dart Auto Formatting
+```
+"editor.defaultFormatter": "Dart-Code.dart-code"
+```

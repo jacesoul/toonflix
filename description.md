@@ -53,3 +53,4 @@
 ### UI Challenge
 
 - Row는 수평, Column은 수직배열을 뜻한다.
+- Container는 div와 동일하다 child를 가지고 있는 단순한 box이다.

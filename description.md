@@ -86,3 +86,5 @@ command + .
 - flutter가 좋은 이유는 화면을 통제하기 때문에 원하는 모든 것을 엔진이 제한없이 다 알아서 해준다.
 - clipBehavior는 어떤 아이템이 overflow 되었을때 카드와 같은 Container로 하여금 어떻게 동작하게끔 할건지 알려주는 장치이다. clipBehavior를 통해서 나머지 부분을 어떻게 처리할지 설정할수 있다.
 - Clip.hardEdge를 사용하면 아이콘의 나머지 부분이 숨겨지게 된다.
+- final blackColor가 정의되었으므로 생성자 쪽에 넣어줄 필요가 없다. 아무도 blackColor가 무엇인지에 대해 알려주게 하는게 싫기 때문이다.
+- \_blackColor의 의미는 blackColor를 private하게 만들겠다는 의미이다.

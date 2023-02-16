@@ -88,3 +88,11 @@ command + .
 - Clip.hardEdge를 사용하면 아이콘의 나머지 부분이 숨겨지게 된다.
 - final blackColor가 정의되었으므로 생성자 쪽에 넣어줄 필요가 없다. 아무도 blackColor가 무엇인지에 대해 알려주게 하는게 싫기 때문이다.
 - \_blackColor의 의미는 blackColor를 private하게 만들겠다는 의미이다.
+
+### Stateful Widgets
+
+- Stateless Widget은 build 메서드를 통해서 단지 UI를 출력할 뿐이다.
+- Stateful Widget은 상태를 가지고 있어서 Stateful이라고 부른다. 즉, 상태에 따라 변하게 될 데이터를 생각할수 있다.
+- Stateful Widget은 두개의 부분으로 나뉘어진다. 첫번째 부분은 상태가 없는 위제 그 자체다. 두번째 부분은 위젯 state인데 위젯에 들어갈 데이터와 UI를 넣는 곳이다.
+- 멋진점은 데이터가 변경되면 해당 위젯의 UI도 변경이 된다는 점이다.
+- Stateful Widget의 데이터는 단지, 클래스 프로퍼티일 뿐이다.

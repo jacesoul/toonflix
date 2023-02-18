@@ -108,3 +108,9 @@ command + .
 - dispose 메서드는 위젯 또는 이벤트 리스너 같은 것들이 스크린에서 제거될때 호출되는 메서드이다.
 - StatefulWidget은 life cycle을 가지고 있다.
 - 다른 지점에서 실행되는 많은 메서드를 가지고 있지만 가장 중요한건 initState, dispose, 그리고 build이다.
+
+### Pomodoro APP
+
+- Pomodoro는 생산성 기술인데 25분동안 일한 뒤 5분 쉬는 것을 말한다.
+- Flexible의 역할은 하드 코딩되는 값을 만들게 해준다. 높이가 200 pixel, 너비 100 pixel이 아니라 UI를 비율에 기반해서 더 유연하게 만들 수 있게 해준다.
+- Flexible은 하나의 박스가 얼마나 공간을 차지할지 비율을 정할수 있다.

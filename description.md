@@ -96,3 +96,5 @@ command + .
 - Stateful Widget은 두개의 부분으로 나뉘어진다. 첫번째 부분은 상태가 없는 위제 그 자체다. 두번째 부분은 위젯 state인데 위젯에 들어갈 데이터와 UI를 넣는 곳이다.
 - 멋진점은 데이터가 변경되면 해당 위젯의 UI도 변경이 된다는 점이다.
 - Stateful Widget의 데이터는 단지, 클래스 프로퍼티일 뿐이다.
+- setState는 State클래스에게 데이터가 변경되었다고 알리는 함수이다. setState를 사용해서 State에게 새로운 데이터가 있다고 말해준다.
+- setState 함수를 호출하지 않는다면 build 메서드는 다시 실행되지 않는다. setState는 기본적으로 build 메서드를 한번더 호출하는것이다.

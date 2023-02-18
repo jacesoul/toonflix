@@ -124,3 +124,4 @@ command + .
 - Scaffold는 screen을 위한 기본적인 레이아웃과 설정을 제공해준다.
 - Future은 미래에 받을 값의 타입을 알려준다.
 - Dart에게 결과값을 기다리라고 말할땐 await 라는 키워드를 사용한다. await을 사용하고 싶으면 async 함수 내에서 써야한다.
+- dynamic타입은 어떤 타입이든 수용할수 있다.

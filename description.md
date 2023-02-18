@@ -117,5 +117,10 @@ command + .
 - Timer를 통해 정해진 간격에 한번씩 함수를 실행할 수 있다.
 - late modifier는 property를 당장 초기화 하지 않아도 된다는 걸 뜻한다. 하지만 property를 사용하기 전에 반드시 초기화한다고 약속하는 것이다.
 - Periodic time은 주기마다 함수를 실행한다.
+
+### WEBTOON APP
+
 - **_App({super.key});_** 에서 key의 의미는 위젯은 ID같은 식별자 역할을 하는 key가 있다는 것이다. Flutter가 위젯을 빠르게 찾을수 있게 한다.
 - Scaffold는 screen을 위한 기본적인 레이아웃과 설정을 제공해준다.
+- Future은 미래에 받을 값의 타입을 알려준다.
+- Dart에게 결과값을 기다리라고 말할땐 await 라는 키워드를 사용한다. await을 사용하고 싶으면 async 함수 내에서 써야한다.

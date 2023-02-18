@@ -117,3 +117,5 @@ command + .
 - Timer를 통해 정해진 간격에 한번씩 함수를 실행할 수 있다.
 - late modifier는 property를 당장 초기화 하지 않아도 된다는 걸 뜻한다. 하지만 property를 사용하기 전에 반드시 초기화한다고 약속하는 것이다.
 - Periodic time은 주기마다 함수를 실행한다.
+- **_App({super.key});_** 에서 key의 의미는 위젯은 ID같은 식별자 역할을 하는 key가 있다는 것이다. Flutter가 위젯을 빠르게 찾을수 있게 한다.
+- Scaffold는 screen을 위한 기본적인 레이아웃과 설정을 제공해준다.

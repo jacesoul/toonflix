@@ -128,3 +128,6 @@ command + .
 - map은 object처럼 Dart가 지원하는 key-value 데이터 구조인 것을 기억한다.
 - fromJson은 매우 많이 쓰이는 패턴이다.
 - Future 데이터를 불러와서 보여주는 방법은 2가지가 있다.
+- const는 컴파일 전에 값을 알고 있다는 뜻이다.
+- FutureBuilder에는 builder라는 매개변수가 필요하다. Builder는 UI를 그려주는 함수이다.
+- snapshot을 이용하면 Future의 상태를 알수 있다.

@@ -127,3 +127,4 @@ command + .
 - dynamic타입은 어떤 타입이든 수용할수 있다.
 - map은 object처럼 Dart가 지원하는 key-value 데이터 구조인 것을 기억한다.
 - fromJson은 매우 많이 쓰이는 패턴이다.
+- Future 데이터를 불러와서 보여주는 방법은 2가지가 있다.

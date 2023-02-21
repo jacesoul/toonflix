@@ -125,3 +125,5 @@ command + .
 - Future은 미래에 받을 값의 타입을 알려준다.
 - Dart에게 결과값을 기다리라고 말할땐 await 라는 키워드를 사용한다. await을 사용하고 싶으면 async 함수 내에서 써야한다.
 - dynamic타입은 어떤 타입이든 수용할수 있다.
+- map은 object처럼 Dart가 지원하는 key-value 데이터 구조인 것을 기억한다.
+- fromJson은 매우 많이 쓰이는 패턴이다.

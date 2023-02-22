@@ -131,3 +131,9 @@ command + .
 - const는 컴파일 전에 값을 알고 있다는 뜻이다.
 - FutureBuilder에는 builder라는 매개변수가 필요하다. Builder는 UI를 그려주는 함수이다.
 - snapshot을 이용하면 Future의 상태를 알수 있다.
+- 많은 양의 데이터를 연속적으로 보여주고 싶을 때 Column또는 Row는 적절하지않다. 이럴때에는 ListView라는 것을 쓰는게 좋다.
+- ListView는 여러 항목을 나열하는데 최적화된 Widget이다.
+- ListView.builder는 사용자가 보고 있는 아이템만 build한다.
+- itemBuilder는 ListView.builder가 아이템을 build 할때 호출하는 함수이다.
+- 어떤 아이템이 bulid되는지 알수 있는 유일한 방법은 인덱스를 이용하는것 뿐이다.
+- ListView.builder는 모든 아이템을 한번에 만드는 대신 만들려는 아이템에 itemBuilder 함수를 실행한다.

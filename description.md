@@ -137,3 +137,4 @@ command + .
 - itemBuilder는 ListView.builder가 아이템을 build 할때 호출하는 함수이다.
 - 어떤 아이템이 bulid되는지 알수 있는 유일한 방법은 인덱스를 이용하는것 뿐이다.
 - ListView.builder는 모든 아이템을 한번에 만드는 대신 만들려는 아이템에 itemBuilder 함수를 실행한다.
+- Expanded는 화면의 남는 공간을 차지하는 widget이다.

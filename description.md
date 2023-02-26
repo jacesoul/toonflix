@@ -148,3 +148,5 @@ command + .
 - MaterialPageRoute는 또 다른 클래스이다. StatelessWidget을 route로 감싸서 다른 스크린처럼 보이게 해준다.
 - 여기서 builder는 route를 만드는 함수이다.
 - fullscreenDialog: true로 하면 이미지가 바닥에서 올라온다.
+- Hero widget은 화면을 전환할때 굉장히 멋진 애니메이션을 제공해준다.
+- Hero widget을 두개의 화면에 각각 사용하고 각각의 위젯에 같은 태그를 주기만 하면 된다.

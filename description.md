@@ -151,7 +151,13 @@ command + .
 - fullscreenDialog: true로 하면 이미지가 바닥에서 올라온다.
 - Hero widget은 화면을 전환할때 굉장히 멋진 애니메이션을 제공해준다.
 - Hero widget을 두개의 화면에 각각 사용하고 각각의 위젯에 같은 태그를 주기만 하면 된다.
+- StatelessWidget에서 StatefulWidget으로 변환한 유일한 이유는 initState메소드가 필요하기 때문이다. 그래야 getToonById와 getLatestEpisodesById를 사용할수 있다.
 - StatefulWidget에서는 State의 build method에서 widget.title이라고 적어줘야한다.
 - widget. 이라고 적어야하는 이유는 별개의 class에서 작업하고 있기 때문이다.
 - 작성한 코드는 State를 extend하는 class에 있는데 data는 StatefullWidget인 DetailScreen으로 전달이 된다. State class에서 해당 데이터를 받기 위해 widget.id를 통해 참조하고 있다.
 - 초기화하고 싶은 property가 있지만 constructor에서는 불가능한 경우 대신 initState 함수에서 초기화하는 것이다. initState가 항상 build보다 먼저 호출되기 때문에 late modifier가 유용하다.
+- ListView는 여러 요소를 다루는데 최적화되어 있지만 동시에 구현하기 까다로운 부분이 있다.
+- getLatestEpisodesById라는 Future가 에피소드 10개 밖에 return하지 않은 Future이기 때문에 ListView를 사용할 필요가 없다.
+- ListView와 ListViewBuilder는 리스트가 엄청 길고 최적화가 엄청 중요할때 사용하면 된다.
+- collection for는 List안에서 List를 빌드할수 있도록 해준다.
+- **overflow** 문제는 body에서 SingleChildScrollView로 감싸면 된다.

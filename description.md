@@ -146,6 +146,7 @@ command + .
 - Navigator.push는 StatelessWidget을 원하지 않는다.
 - Navigator.push를 사용하면 애니메이션 효과를 이용해서 유저가 다른 페이지로 왔다고 느끼게 해줄수 있다. 사실 또 다른 StatelessWidget을 렌더링 했을뿐인데 말야.
 - MaterialPageRoute는 또 다른 클래스이다. StatelessWidget을 route로 감싸서 다른 스크린처럼 보이게 해준다.
+- MaterialPageRoute는 애니메이션을 생성한다.
 - 여기서 builder는 route를 만드는 함수이다.
 - fullscreenDialog: true로 하면 이미지가 바닥에서 올라온다.
 - Hero widget은 화면을 전환할때 굉장히 멋진 애니메이션을 제공해준다.

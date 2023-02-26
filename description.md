@@ -161,3 +161,8 @@ command + .
 - ListView와 ListViewBuilder는 리스트가 엄청 길고 최적화가 엄청 중요할때 사용하면 된다.
 - collection for는 List안에서 List를 빌드할수 있도록 해준다.
 - **overflow** 문제는 body에서 SingleChildScrollView로 감싸면 된다.
+- `flutter pub add url_launcher`
+- url_launcher는 http url만 실행하는게 아니라 sms ur이나 telephone url에도 실행할수 있다.
+- info.plist는 Flutter가 실행되는 플랫폼의 configuration 파일이다.
+- Xcode 파일을 변경했기 때문에 재시작을 해야한다. hot reloading은 dart 코드 변경만 감지한다.
+- 참조하는 webtoonId는 하나의 값이기 때문에 {} 괄호는 필요없다. episode.id의 경우에는 중괄호가 필요하다.

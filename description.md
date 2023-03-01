@@ -166,3 +166,6 @@ command + .
 - info.plist는 Flutter가 실행되는 플랫폼의 configuration 파일이다.
 - Xcode 파일을 변경했기 때문에 재시작을 해야한다. hot reloading은 dart 코드 변경만 감지한다.
 - 참조하는 webtoonId는 하나의 값이기 때문에 {} 괄호는 필요없다. episode.id의 경우에는 중괄호가 필요하다.
+- shared_preferences를 사용하면 휴대폰 저장소에 데이터를 담을수 있다.
+- `flutter pub add shared_preferences`
+- 가장 먼저 휴대폰 저장소와 connection을 만들어야한다.
